@@ -43,7 +43,7 @@ function ComplexForm() {
 
     return(
         <>
-         <div className='formIntroBody'>
+         <div className='formIntroBody3'>
             <h1>Login Form in React</h1>
             <form onSubmit={onSubmitFunction}>
             <h2>Hello {fullname.fname}  {fullname.lname} </h2>

@@ -4,21 +4,23 @@ import Events from './Events';
 import FormIntro from './FormIntro';
 import LoginForm from './LoginForm';
 import ComplexForm from './ComplexForm';
+import ToDoList from './ToDoList';
+import MaterialUI from './MaterialUI';
+
 
 function App() {
 
   return(
     <>
     <DigitalClock />
-    <hr />    
     <Events />
-    <hr />
     <FormIntro />
-    <hr />
     <LoginForm />
-    <hr />
     <ComplexForm />
+    <ToDoList />
+    <MaterialUI />
     </>
+
   );
 }
 

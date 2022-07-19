@@ -1,3 +1,9 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
 .App {
   text-align: center;
 }
@@ -39,10 +45,14 @@
 
 .DigitalClockBody{
   text-align: center;
+  background-color: peachpuff;
+  padding: 20px;
+  margin: 0px;
 }
 .EventsBody{
   text-align: center;
-  margin-top: 50px;
+  background-color: cornsilk;
+  padding: 0px;
 }
 .EventsBody button{
   padding: 10px 25px;
@@ -52,18 +62,30 @@
   font-size: 18px;
   border: none;
 }
-.formIntroBody{
+
+.formIntroBody1{
   text-align: center;
-  margin-top: 50px;
+  background-color: #bbc9a5;
 }
-.formIntroBody input{
+.formIntroBody2{
+  text-align: center;
+  background-color: #f6c870;
+}
+
+.formIntroBody3{
+  text-align: center;
+  background-color: #6a7031	;
+}
+
+
+.formIntroBody input, .formIntroBody1 input,.formIntroBody2 input, .formIntroBody3 input  {
   padding: 10px 20px;
   display: block;
   margin: 0 auto;
   font-size: 16px;
   margin-top: 10px;
 }
-.formIntroBody button{
+.formIntroBody button, .formIntroBody1 button, .formIntroBody2 button, .formIntroBody3 button{
   margin-top: 150px;
   padding: 10px 30px;
   display: block;
@@ -74,7 +96,124 @@
   border: none;
 }
 
+.todolistOuterdiv{
+  background-color:#ed9900eb;
+  padding: 40px 0px;;
+}
 
-hr{
-  border: 2px solid black;
+.tolist_main_div{
+  text-align: center;  
+}
+
+.tolist_main_div input{
+  padding: 10px 20px;
+  margin: 0 auto;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.tolist_main_div button{
+  margin: 5px;
+  font-size: 25px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  background-color: dodgerblue;
+  color: #fff;
+}
+
+.tolist_main_div button:hover{
+  background-color: green;
+  color: #fff;
+}
+
+.tolist_main_div ol{
+  align-items: left;
+  text-decoration: none;
+  list-style: none;
+}
+
+li{
+  list-style-type: none;
+  padding: 10px 0px;
+}
+
+.tolist_center_div{  
+  border: none;
+  width: 400px;
+  margin: 0 auto;
+  margin-top: 25px; 
+  padding: 20px 0px;
+  min-height: 500px;
+  background-color: #ebdedebd;
+  box-shadow: 3px 3px 15px black;
+}
+
+.tolist_center_div ul{
+  text-align: left !important;
+  padding-left: 50px !important;
+}
+.todolist_cross_sign{
+  background-color: crimson;
+  color: #fff;
+  margin-right: 5px;
+  width: 10px;
+  height: 10px;
+  padding: 3px;;
+  border-radius: 50%;
+  border: none;
+
+}
+
+
+.materialUI_outerDiv{
+  text-align: center;
+  background-color: #254121;
+  padding: 50px;
+}
+.materialUI_outerDiv h1{
+  color: black;
+  font-style: italic;
+  background-color: #fff;
+  display: inline-block;
+  padding: 5px 55px;
+  border-radius: 3px;
+}
+.materialUI_centerDiv{
+  background-color: #ffffffeb;
+  width: 380px;
+  margin:0 auto;
+  margin-top: 25px;
+  padding: 25px;
+  min-height: 350px;
+  box-shadow: 3px 3px 15px #000;
+  border-radius: 2px;
+}
+.materialUI_centerDiv h2{
+   margin-top: 50px;
+   font-size: 50px;
+   color: #000;
+}
+
+.button_div{
+  float: left;
+  width: 100%;
+  margin-top: 50px;
+}
+.button_div1, .button_div2{
+  float: left;
+  width: 50%;
+}
+
+.button_div1 button, .button_div2 button{
+  font-size: 20px;
+  font-weight: bolder;
+  padding: 10px 20px;
+}
+.button_div1 button{
+  color: crimson;
+}
+.button_div2 button{
+  color: green;
 }

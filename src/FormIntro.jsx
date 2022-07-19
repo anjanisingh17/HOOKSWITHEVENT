@@ -18,7 +18,7 @@ function FormIntro() {
 
     return(
         <>
-         <div className='formIntroBody'>
+         <div className='formIntroBody1'>
             <h1>Forms in React</h1>
             <h2>Hello {fulname}</h2>
             <input type='text' placeholder='Enter Your Name' value={val} onChange={onChangeFunction} />
