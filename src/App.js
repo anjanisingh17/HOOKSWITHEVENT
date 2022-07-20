@@ -6,7 +6,7 @@ import LoginForm from './LoginForm';
 import ComplexForm from './ComplexForm';
 import ToDoList from './ToDoList';
 import MaterialUI from './MaterialUI';
-
+import Accordian from './Accordian/Accordian';
 
 function App() {
 
@@ -19,6 +19,7 @@ function App() {
     <ComplexForm />
     <ToDoList />
     <MaterialUI />
+    <Accordian />
     </>
 
   );

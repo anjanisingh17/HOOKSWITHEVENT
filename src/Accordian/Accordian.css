@@ -1,0 +1,39 @@
+@import "/node_modules/bootstrap/dist/css/bootstrap.min.css";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.accordian_heading{
+    color:green;
+    text-align: center;
+}
+
+.accordian_mainDiv{
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 10px 5px;
+    /* min-height: 100px; */
+    border: none;
+    box-shadow: 5px 5px 10px black;
+
+}
+.accordian_question_section{
+    background-color: #F0F8FF;
+    margin: 20px;
+    padding: 20px;
+}
+.accordian_question_section i{
+    font-size: 30px;
+    font-style: normal;
+}
+.accordian_question_section span{
+    padding-left: 10px;
+}
+.answer_div{
+    background-color: #e9cdbe;
+    padding: 10px;
+}
