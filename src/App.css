@@ -1,3 +1,4 @@
+@import "/node_modules/bootstrap/dist/css/bootstrap.min.css";
 *{
   margin: 0px;
   padding: 0px;
@@ -216,4 +217,21 @@ li{
 }
 .button_div2 button{
   color: green;
+}
+
+.menu_div{
+  background-color: #6f6f7036;
+  padding: 20px;  
+}
+
+a{
+  color: #000 !important;
+  text-align: center;
+  font-size: 18px;
+  text-decoration: none !important;
+  margin: 5px;
+}
+a.active{
+  border-bottom: 2px solid brown;  
+  padding-bottom: 8px;
 }

@@ -10,7 +10,7 @@ function Accordian() {
  const [currentPage, setCurrentPage] = useState(0);
   let currentPageData = [];
   const PER_PAGE = 3;
-  let pageCount = 2;
+  let pageCount = 0;
 const offset = currentPage * PER_PAGE;
 function handlePageClick({ selected: selectedPage }) {
     setCurrentPage(selectedPage);
