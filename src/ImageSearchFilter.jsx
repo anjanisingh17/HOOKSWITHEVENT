@@ -11,6 +11,7 @@ const inputTextFun = (event)=>{
 
   return (
     <>
+        <h1>Testing</h1>
         <div className='image_search_outer_div'>
             <input type='text' placeholder='Search Any Image' value={inputVal} onChange={inputTextFun} />
         </div>
