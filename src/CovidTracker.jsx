@@ -9,20 +9,20 @@ function CovidTracker() {
 
 const [exactdata,setvalue] = useState([]);
 
-
 async function getCovidData(){
     const response = await fetch('https://data.covid19india.org/data.json');
     const data = await response.json();
-    setvalue(data.statewise);
+    setvalue(data.statewise);   
 }
 
     
 useEffect(()=>{
+    return ()=>{
         
      getCovidData();
-   
+    }
     
-},[])
+})
 
 
 console.log(exactdata)
