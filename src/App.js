@@ -19,6 +19,7 @@ function App() {
     <Menu />
      <Routes>
      <Route path='/' element={<DigitalClock />} />
+     <Route exact path='/HOOKSWITHEVENT/' element={<DigitalClock />} />
       <Route path='/events' element={<Events />} />
       <Route path='/formintro' element={<FormIntro />} />
       <Route path='/loginform' element={<LoginForm />} />
