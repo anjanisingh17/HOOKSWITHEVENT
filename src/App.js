@@ -10,6 +10,7 @@ import Accordian from './Accordian/Accordian';
 import Menu from './Menu';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import CovidTracker from './CovidTracker';
+import ImageSearchFilter from './ImageSearchFilter';
 
 function App() {
 
@@ -25,7 +26,10 @@ function App() {
       <Route path='/todolist' element={<ToDoList />} />
       <Route path='/materialui' element={<MaterialUI />} />
       <Route path='/accordian' element={<Accordian />} />    
-      <Route path='/covidtracker' element={<CovidTracker />} />    
+      <Route path='/covidtracker' element={<CovidTracker />} />  
+      <Route path='/imageSearchfilter' element={<ImageSearchFilter />} />  
+
+        
      </Routes>
     </>
 

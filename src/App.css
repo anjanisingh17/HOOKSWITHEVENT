@@ -235,3 +235,43 @@ a.active{
   border-bottom: 2px solid brown;  
   padding-bottom: 8px;
 }
+.image_search_outer_div{
+  width: 400px;
+  margin: 0 auto;
+  margin-top: 25px;
+  background-color: red;
+}
+.image_search_outer_div input{
+  width: 400px;
+  height: 40px;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  box-shadow: 3px 3px  10px blue;
+}
+.image_search_outer_div input:focus{
+  border: none;
+}
+.randomImageDiv{
+  width: 100%;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content:  space-evenly
+} 
+
+.randomImageDiv img{
+  width: 450px;
+  height: 450px;
+ 
+  
+}
+
+
+.randomimage1,.randomimage2,.randomimage3{
+  float: left;
+  width: 33%;
+  border-radius: 3px;
+  box-shadow: 3px 4px  5px grey;
+
+}

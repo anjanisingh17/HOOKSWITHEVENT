@@ -15,6 +15,8 @@ function Menu() {
       <NavLink   to='/materialui'>MaterialUI</NavLink>
       <NavLink   to='/accordian'>Accordian</NavLink> 
       <NavLink   to='/covidtracker'>CovidTracker</NavLink>     
+      <NavLink   to='/imageSearchfilter'>ImageSearchFilter</NavLink>     
+      
      </div>      
     </>
   )
