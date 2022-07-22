@@ -18,10 +18,9 @@ async function getCovidData(){
 
     
 useEffect(()=>{
-    return ()=>{
         
      getCovidData();
-    }
+   
     
 },[])
 
