@@ -13,19 +13,18 @@ async function getCovidData(){
     const response = await fetch('https://data.covid19india.org/data.json');
     const data = await response.json();
     setvalue(data.statewise);   
+    console.log(data.statewise);
 }
 
     
 useEffect(()=>{
-    return ()=>{
-        
+      
      getCovidData();
-    }
+   
     
-})
+},[])
 
 
-console.log(exactdata)
   return (
     <>
         <h2><center>Covid Tracker</center></h2>
@@ -43,13 +42,13 @@ console.log(exactdata)
 
  {
         exactdata.map((val,index)=>{
-            if(index!=0){
+            
            return(
 
             <>
           
               <tr key={index}>
-                <th scope="row">{index}</th>
+                <td >{index}</td>
                 <td>{val.state}</td>
                 <td>{val.confirmed}</td>
                 <td>{val.recovered}</td>
@@ -58,7 +57,7 @@ console.log(exactdata)
         
             </>
 
-           )}   
+           )   
           
        
             
