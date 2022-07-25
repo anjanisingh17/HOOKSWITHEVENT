@@ -27,7 +27,7 @@ useEffect(()=>{
 
   return (
     <>
-        <h2><center>Covid Tracker</center></h2>
+        <h2><center>Covid Trackers</center></h2>
         <table className="table">
   <thead>
     <tr>
@@ -42,7 +42,7 @@ useEffect(()=>{
 
  {
         exactdata.map((val,index)=>{
-            
+            if(index != 0){
            return(
 
             <>
@@ -57,7 +57,7 @@ useEffect(()=>{
         
             </>
 
-           )   
+           )}    
           
        
             
