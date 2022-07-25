@@ -20,7 +20,7 @@ function App() {
      <Routes>
      <Route path='/' element={<DigitalClock />} />
      <Route exact path='/HOOKSWITHEVENT/' element={<DigitalClock />} />
-      <Route path='https://anjanisingh953.github.io/HOOKSWITHEVENT/' element={<Events />} />
+      <Route path='/events' element={<Events />} />
       <Route path='/formintro' element={<FormIntro />} />
       <Route path='/loginform' element={<LoginForm />} />
       <Route path='/complexform' element={<ComplexForm />} />
