@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/HOOKSWITHEVENT/static/css/main.54c702cf.css",
+    "main.js": "/HOOKSWITHEVENT/static/js/main.77b4b8cc.js",
+    "index.html": "/HOOKSWITHEVENT/index.html",
+    "main.54c702cf.css.map": "/HOOKSWITHEVENT/static/css/main.54c702cf.css.map",
+    "main.77b4b8cc.js.map": "/HOOKSWITHEVENT/static/js/main.77b4b8cc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.54c702cf.css",
+    "static/js/main.77b4b8cc.js"
+  ]
+}
