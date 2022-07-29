@@ -65,7 +65,7 @@ const removeSpacesFunction = (textvalue)=>{
        <button className='mx-2 px-5 btn-primary' onClick={()=>removeSpacesFunction(textvalue)}>RemoveSpaces</button>
        </div>
        <p><b>Word Count is:</b> <span style={cssProperty}>{ (textvalue) ? wordcount :lettercount }</span><b>Character Count is:</b> <span style={cssProperty}>{lettercount}</span></p>
-       <p>Preview: <br /> <b>{textvalue?textvalue:'Write to something to preview!'}</b></p> 
+       <p>Previews: <br /> <b>{textvalue?textvalue:'Write to something to preview!'}</b></p> 
       </div>     
 
     </>
