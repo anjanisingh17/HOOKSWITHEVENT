@@ -11,6 +11,7 @@ import Menu from './Menu';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import CovidTracker from './CovidTracker';
 import ImageSearchFilter from './ImageSearchFilter';
+import TextUtility from './TextUtility/TextUtility';
 
 function App() {
 
@@ -29,7 +30,8 @@ function App() {
       <Route path='/accordian' element={<Accordian />} />    
       <Route path='/covidtracker' element={<CovidTracker />} />  
       <Route path='/imageSearchfilter' element={<ImageSearchFilter />} />  
-
+      <Route path='/textutility' element={<TextUtility />} />  
+      
         
      </Routes>
     </>

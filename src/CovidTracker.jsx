@@ -16,6 +16,7 @@ async function getCovidData(){
     console.log(data.statewise);
 }
 
+const d = new Date();
     
 useEffect(()=>{
       
@@ -27,7 +28,7 @@ useEffect(()=>{
 
   return (
     <>
-        <h2><center>Covid Trackers</center></h2>
+        <h2><center>Covid Tracker</center></h2>
         <table className="table">
   <thead>
     <tr>
@@ -42,13 +43,13 @@ useEffect(()=>{
 
  {
         exactdata.map((val,index)=>{
-            if(index != 0){
+            if(index !== 0){
            return(
 
             <>
           
-              <tr key={index}>
-                <td >{index}</td>
+              <tr key={index+d.toLocaleTimeString()}>
+                <td>{index+d.toLocaleTimeString()}</td>
                 <td>{val.state}</td>
                 <td>{val.confirmed}</td>
                 <td>{val.recovered}</td>
@@ -58,12 +59,6 @@ useEffect(()=>{
             </>
 
            )}    
-          
-       
-            
-            
-
-
         })
     
  }

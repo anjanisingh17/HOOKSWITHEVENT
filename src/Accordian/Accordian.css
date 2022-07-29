@@ -34,6 +34,8 @@
     padding-left: 10px;
 }
 .answer_div{
-    background-color: #e9cdbe;
+    background-color: #ffaf841f;
     padding: 10px;
+    font-size: 18px;
+    text-align: justify;
 }
