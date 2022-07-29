@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/HOOKSWITHEVENT/static/css/main.e1060724.css",
-    "main.js": "/HOOKSWITHEVENT/static/js/main.22ad4a49.js",
+    "main.css": "/HOOKSWITHEVENT/static/css/main.54c702cf.css",
+    "main.js": "/HOOKSWITHEVENT/static/js/main.77b4b8cc.js",
     "index.html": "/HOOKSWITHEVENT/index.html",
-    "main.e1060724.css.map": "/HOOKSWITHEVENT/static/css/main.e1060724.css.map",
-    "main.22ad4a49.js.map": "/HOOKSWITHEVENT/static/js/main.22ad4a49.js.map"
+    "main.54c702cf.css.map": "/HOOKSWITHEVENT/static/css/main.54c702cf.css.map",
+    "main.77b4b8cc.js.map": "/HOOKSWITHEVENT/static/js/main.77b4b8cc.js.map"
   },
   "entrypoints": [
-    "static/css/main.e1060724.css",
-    "static/js/main.22ad4a49.js"
+    "static/css/main.54c702cf.css",
+    "static/js/main.77b4b8cc.js"
   ]
 }
